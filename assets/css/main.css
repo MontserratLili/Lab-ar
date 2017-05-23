@@ -76,9 +76,82 @@ body{
     width: 100%;
     border: 2px solid white;
     padding: 5% 5% 3% 0;
-    margin: 5% 5% 5% 0;
+    margin: 5% 5% 0% 0;
     height: 100%;
 }
 .iphone{
     height: 400px;
+}
+
+/*ESTILOS TERCERA SECCION CONVIERTÉTE EN CONDUCTOR*/
+.seccionConductor{
+    background-image: url("../img/conduce.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conduce{
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+.espaciado{
+    padding: 90px 50px 50px 50px;
+}
+
+/*ESTILOS CUARTA SECCION VIAJAR*/
+.seccionColorN{
+    background-color: orange;
+    width: 100%;
+    height: 480px;
+}
+.tarifaFormulario{
+    padding: 40px;
+}
+.vinetas{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.tarifaEscribe{
+    padding: 20px 20px 20px 0;
+}
+
+.mapa{
+    width: 100%;
+    height: 100%;
+    margin: 4% 0 0 0;
+}
+.inputs{
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1%;
+    color: white;
+}
+/*ESTILOS QUINTA SECCION FOOTER*/
+footer{
+    background-color: #2b3239;
+    width: 100%;
+    height: 570px;
+}
+.lineaFooter{
+    margin: 5% 0 0 0;
+}
+li{
+    list-style: none;
+    padding: 5%;
+}
+i{
+    display: inline-block;
+}
+.redesSociales{
+    padding: 28% 0 0 0;
+}
+.tiendas{
+    padding: 18% 0 0 0;
 }
