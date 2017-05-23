@@ -1,0 +1,26 @@
+/*ESTILOS GENERALES*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}  
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*ESTILOS MANÚ FIJO*/
+.menuFijo{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+}
+.logo{
+    width: 100%;
+    padding: 2% 10% 10% 40%;
+}
+.linksMenu{
+    text-decoration: none;
+    color: lightslategrey;
+}
